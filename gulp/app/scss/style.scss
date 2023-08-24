@@ -1,0 +1,51 @@
+@import "fonts";
+@import "global";
+.field {
+  width: 270px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(109, 180, 247);
+}
+
+.suruname,
+.name,
+.date,
+.address {
+  display: flex;
+  margin-top: 10px;
+}
+
+.surn,
+.date_label {
+  margin-right: 10px;
+}
+
+.n {
+  margin-right: 50px;
+}
+
+.city {
+  margin-top: 10px;
+}
+
+.address {
+  flex-direction: column;
+}
+
+.send {
+  margin-top: 10px;
+}
+.address_1 {
+  width: 250px;
+}
+table {
+  border: 1px solid rgb(172, 174, 177);
+  margin-top: 20px;
+  display: none;
+}
+
+th {
+  margin: 20px;
+  border: 1px solid rgb(172, 174, 177);
+  width: 200px;
+}
